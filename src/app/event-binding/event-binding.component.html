@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<button (click)="onClick($event)">Prss it</button><br />
+<input #log type="text"><br /> 
+<!-- #log is the template referance variable -->
+<button (click)="logValue(log.value)">Log</button><br />
+<input type="text" [(ngModel)]="name">
+{{name}}
