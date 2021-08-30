@@ -1,3 +1,5 @@
 <!-- <app-info></app-info> -->
 <!-- <app-event-binding></app-event-binding> -->
-<app-if-for-switch-directive></app-if-for-switch-directive>
+<!-- <app-if-for-switch-directive></app-if-for-switch-directive> -->
+<app-component-interaction (childEvent)="message=$event" [parentData]="name"></app-component-interaction>
+{{message}}
