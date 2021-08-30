@@ -1,0 +1,30 @@
+<!-- ngIf -->
+<h1>Hey you are here to learn about angular structural directives</h1>
+<button (click)="onClick()">Learn more</button>
+<h1 *ngIf="isRender">What is angular structural directives</h1>
+
+<h1 *ngIf="isRender;else elseBlock">Arindam</h1>
+<ng-template #elseBlock>
+    <h1>Sanjukta</h1>
+</ng-template>
+
+<div *ngIf="isRender;then a;else b"></div>
+<ng-template #a>
+    <h1>An</h1>
+</ng-template>
+<ng-template #b>
+    <h1>Am</h1>
+</ng-template>
+
+<!-- ngSwitch -->
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'">You chose red</h1>
+    <h1 *ngSwitchCase="'yellow'">You chose yellow</h1>
+    <h1 *ngSwitchCase="'orange'">You chose orange</h1>
+    <h1 *ngSwitchDefault>Pick Again</h1>
+</div>
+
+<!-- ngFor -->
+<div *ngFor="let name of names;index as i">
+    <h1>{{i}}{{name}}</h1>
+</div>

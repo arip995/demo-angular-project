@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InfoComponent } from './class-binding/info.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { IfForSwitchDirectiveComponent } from './if-for-switch-directive/if-for-switch-directive.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InfoComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    IfForSwitchDirectiveComponent
   ],
   imports: [
     BrowserModule,
