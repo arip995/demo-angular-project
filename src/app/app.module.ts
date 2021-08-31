@@ -8,6 +8,7 @@ import { InfoComponent } from './class-binding/info.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { IfForSwitchDirectiveComponent } from './if-for-switch-directive/if-for-switch-directive.component';
 import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ComponentInteractionComponent } from './component-interaction/component
     InfoComponent,
     EventBindingComponent,
     IfForSwitchDirectiveComponent,
-    ComponentInteractionComponent
+    ComponentInteractionComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
