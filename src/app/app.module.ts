@@ -9,6 +9,10 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
 import { IfForSwitchDirectiveComponent } from './if-for-switch-directive/if-for-switch-directive.component';
 import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { ServicesComponent } from './services/services.component';
+import { EmployeeListComponent } from './services/employee-list/employee-list.component';
+import { EmployeeDetailsComponent } from './services/employee-details/employee-details.component';
+import { EmployeeService } from './services/employee.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,10 @@ import { PipesComponent } from './pipes/pipes.component';
     EventBindingComponent,
     IfForSwitchDirectiveComponent,
     ComponentInteractionComponent,
-    PipesComponent
+    PipesComponent,
+    ServicesComponent,
+    EmployeeListComponent,
+    EmployeeDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +32,7 @@ import { PipesComponent } from './pipes/pipes.component';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
