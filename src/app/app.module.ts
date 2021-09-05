@@ -13,6 +13,8 @@ import { ServicesComponent } from './services/services.component';
 import { EmployeeListComponent } from './services/employee-list/employee-list.component';
 import { EmployeeDetailsComponent } from './services/employee-details/employee-details.component';
 import { EmployeeService } from './services/employee.service';
+import { HttpComponent } from './http/http.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { EmployeeService } from './services/employee.service';
     PipesComponent,
     ServicesComponent,
     EmployeeListComponent,
-    EmployeeDetailsComponent
+    EmployeeDetailsComponent,
+    HttpComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [EmployeeService],
   bootstrap: [AppComponent]
