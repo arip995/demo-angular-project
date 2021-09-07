@@ -8,7 +8,9 @@ import { EmployeeService } from '../employee.service';
 })
 export class EmployeeDetailsComponent implements OnInit {
   public employees:any = [];
-  constructor(private _employeeService: EmployeeService) { }
+  constructor(private _employeeService: EmployeeService ) {
+    //In the constructor, EmployeeService is injected as a dependency.
+   }
 
   ngOnInit(): void {
     this._employeeService.getEmployees().subscribe(data => {this.employees=data});
