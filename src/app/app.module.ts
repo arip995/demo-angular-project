@@ -16,6 +16,7 @@ import { EmployeeService } from './services/employee.service';
 import { HttpComponent } from './http/http.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RoutesComponent } from './routes/routes.component';
+import { ObservablesComponent } from './observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { RoutesComponent } from './routes/routes.component';
     EmployeeListComponent,
     EmployeeDetailsComponent,
     HttpComponent,
-    RoutesComponent
+    RoutesComponent,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
