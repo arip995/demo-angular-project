@@ -17,6 +17,7 @@ import { HttpComponent } from './http/http.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RoutesComponent } from './routes/routes.component';
 import { ObservablesComponent } from './observables/observables.component';
+import { SubjectComponent } from './subject/subject.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ObservablesComponent } from './observables/observables.component';
     EmployeeDetailsComponent,
     HttpComponent,
     RoutesComponent,
-    ObservablesComponent
+    ObservablesComponent,
+    SubjectComponent
   ],
   imports: [
     BrowserModule,
