@@ -19,6 +19,7 @@ import { RoutesComponent } from './routes/routes.component';
 import { ObservablesComponent } from './observables/observables.component';
 import { SubjectComponent } from './subject/subject.component';
 import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject.component';
+import { MaterialAngularComponent } from './material-angular/material-angular.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject
     RoutesComponent,
     ObservablesComponent,
     SubjectComponent,
-    BehaviourSubjectComponent
+    BehaviourSubjectComponent,
+    MaterialAngularComponent
   ],
   imports: [
     BrowserModule,
