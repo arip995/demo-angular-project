@@ -15,6 +15,7 @@ import { EmployeeDetailsComponent } from './services/employee-details/employee-d
 import { EmployeeService } from './services/employee.service';
 import { HttpComponent } from './http/http.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RoutesComponent } from './routes/routes.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     ServicesComponent,
     EmployeeListComponent,
     EmployeeDetailsComponent,
-    HttpComponent
+    HttpComponent,
+    RoutesComponent
   ],
   imports: [
     BrowserModule,
