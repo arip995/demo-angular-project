@@ -20,6 +20,7 @@ import { ObservablesComponent } from './observables/observables.component';
 import { SubjectComponent } from './subject/subject.component';
 import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject.component';
 import { MaterialAngularComponent } from './material-angular/material-angular.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MaterialAngularComponent } from './material-angular/material-angular.co
     ObservablesComponent,
     SubjectComponent,
     BehaviourSubjectComponent,
-    MaterialAngularComponent
+    MaterialAngularComponent,
+    RxjsComponent
   ],
   imports: [
     BrowserModule,
