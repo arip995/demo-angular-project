@@ -21,6 +21,7 @@ import { SubjectComponent } from './subject/subject.component';
 import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject.component';
 import { MaterialAngularComponent } from './material-angular/material-angular.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { ParamRoutingComponent } from './param-routing/param-routing.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     SubjectComponent,
     BehaviourSubjectComponent,
     MaterialAngularComponent,
-    RxjsComponent
+    RxjsComponent,
+    ParamRoutingComponent
   ],
   imports: [
     BrowserModule,
