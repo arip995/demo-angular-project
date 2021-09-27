@@ -22,6 +22,7 @@ import { BehaviourSubjectComponent } from './behaviour-subject/behaviour-subject
 import { MaterialAngularComponent } from './material-angular/material-angular.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ParamRoutingComponent } from './param-routing/param-routing.component';
+import { ViewchildComponent } from './viewchild/viewchild.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ParamRoutingComponent } from './param-routing/param-routing.component';
     BehaviourSubjectComponent,
     MaterialAngularComponent,
     RxjsComponent,
-    ParamRoutingComponent
+    ParamRoutingComponent,
+    ViewchildComponent
   ],
   imports: [
     BrowserModule,
